@@ -76,12 +76,6 @@ const UserSettingsModal = React.memo(
           <PreferencesPane subscribeToOwnCards={subscribeToOwnCards} onUpdate={onUpdate} />
         ),
       },
-      {
-        menuItem: t('common.aboutPlanka', {
-          context: 'title',
-        }),
-        render: () => <AboutPane />,
-      },
     ];
 
     return (

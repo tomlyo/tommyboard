@@ -104,7 +104,6 @@ const ActionsStep = React.memo(
         </span>
         <span className={styles.content}>
           <div className={styles.name}>{membership.user.name}</div>
-          <div className={styles.email}>{membership.user.email}</div>
         </span>
         {permissionsSelectStep && canEdit && (
           <Button
